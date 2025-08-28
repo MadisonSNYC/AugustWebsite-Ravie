@@ -1,1 +1,11 @@
 node_modules
+
+# Large video files
+public/Ravie/Ravie Featured Project Files/
+*.mp4
+*.mov
+*.avi
+*.webm
+
+# OS files
+.DS_Store
