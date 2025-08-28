@@ -1,0 +1,82 @@
+/* Cinematic tile styles for work page */
+
+/* Override tile heights to use cinematic aspect ratio */
+.portfolio-tile {
+  position: relative !important;
+  width: 100% !important;
+  aspect-ratio: 2.5 / 1 !important;
+  height: auto !important;
+  overflow: hidden !important;
+}
+
+/* Ensure content fills the tile */
+.portfolio-tile > * {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+
+/* Column adjustments for cinematic tiles */
+.masonry-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+/* Grid container adjustments */
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+  }
+}
+
+/* Ensure ProjectCard fills container */
+.portfolio-tile article,
+.portfolio-tile .project-card {
+  width: 100% !important;
+  height: 100% !important;
+  position: relative !important;
+}
+
+/* Video/Image container */
+.portfolio-tile video,
+.portfolio-tile img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+
+/* Remove any conflicting aspect ratios */
+.aspect-video {
+  aspect-ratio: unset !important;
+}
+
+/* Override tile scale for cinematic format */
+:root {
+  --tile-scale: 0.3; /* Smaller scale for wider tiles */
+}
+
+/* Ensure proper column heights */
+.portfolio-viewport {
+  overflow: hidden !important;
+}
+
+.portfolio-scroll {
+  height: auto !important;
+  min-height: 200vh; /* Ensure scrollable content */
+}
