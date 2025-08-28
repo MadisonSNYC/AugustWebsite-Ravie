@@ -1,0 +1,47 @@
+{
+  "projectName": "Ravie Portfolio Website",
+  "repositoryUrl": "https://github.com/MadisonSNYC/AugustWebsite-Ravie.git",
+  "framework": {
+    "name": "react",
+    "version": "19.1.1"
+  },
+  "buildTool": {
+    "name": "vite",
+    "version": "7.1.2"
+  },
+  "language": {
+    "typescript": true,
+    "javascript": true
+  },
+  "testing": {
+    "framework": "playwright",
+    "e2eDirectory": "tests/e2e"
+  },
+  "formatting": {
+    "maxLineLength": 100,
+    "useTabs": false,
+    "tabWidth": 2
+  },
+  "linting": {
+    "enabled": true,
+    "eslint": true
+  },
+  "paths": {
+    "sourceRoot": "src",
+    "testRoot": "tests",
+    "documentation": "documentation",
+    "tasks": "task-md"
+  },
+  "features": {
+    "tailwind": true,
+    "typescript": true,
+    "playwright": true
+  },
+  "recommendations": {
+    "extensions": [
+      "dbaeumer.vscode-eslint",
+      "bradlc.vscode-tailwindcss",
+      "ms-playwright.playwright"
+    ]
+  }
+}
