@@ -1,8 +1,9 @@
 import './App.css'
 import { lazy, Suspense, useState } from 'react'
-import { Routes, Route, useLocation, useNavigate } from 'react-router-dom'
+import { Routes, Route, useLocation, useNavigate, Link } from 'react-router-dom'
 import React from 'react'
-import Header from './components/HeaderFrosted'
+// import Header from './components/HeaderFrosted' // Archived at _archive/classic/
+import { HeaderLeftVertical } from './components/header/left-vertical'
 import Footer from './components/Footer'
 import ErrorBoundary from './components/ErrorBoundary'
 import ScrollToTop from './components/ScrollToTop'
@@ -67,10 +68,21 @@ function App() {
       {/* Intro Sequence Overlay - Commented out for debugging */}
       {/* <IntroSequence onComplete={() => setIntroComplete(true)} /> */}
       
+      {/* Navigation Selection - Dev Override (DISABLED) */}
+      {/* To enable classic header for demos, uncomment this block:
+      {window.location.search.includes('nav=classic') ? (
+        <ClassicHeader /> // Import from _archive/classic/ if needed
+      ) : (
+        <HeaderLeftVertical />
+      )}
+      */}
+      
+      {/* Active Navigation - Left Vertical */}
+      <HeaderLeftVertical />
+
       {/* Main App Content */}
       <div className="min-h-screen bg-black" id="main-content" tabIndex={-1}>
         <ScrollToTop />
-        <Header />
         {/* Project Directory Sidebar - Temporarily Hidden */}
         {/* <Suspense fallback={<div className="w-12 h-12" />}>
           <ProjectDirectory />

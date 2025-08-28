@@ -1,0 +1,290 @@
+/* ========================================
+   90s MECHANICAL KEYBOARD BUTTON EFFECTS
+   Physical button press with tactile feedback
+   ======================================== */
+
+/* Modern Mechanical Keyboard Button - Always Projected */
+.ravie-nav-item {
+  /* Existing glass effects preserved */
+  position: relative;
+  
+  /* Modern Mechanical Keyboard - Prominent Static State */
+  background: 
+    /* Glass morphism base */
+    linear-gradient(145deg, 
+      rgba(255, 255, 255, 0.08) 0%, 
+      rgba(255, 255, 255, 0.02) 50%,
+      rgba(0, 0, 0, 0.05) 100%);
+  
+  /* Multi-layer shadow for extreme projection */
+  box-shadow: 
+    /* Top bevel highlight */
+    inset 0 3px 8px rgba(255, 255, 255, 0.4),
+    inset 0 1px 2px rgba(255, 255, 255, 0.6),
+    /* Bottom shadow for depth */
+    inset 0 -4px 10px rgba(0, 0, 0, 0.5),
+    /* Key projection shadows - more prominent */
+    0 8px 16px rgba(0, 0, 0, 0.4),
+    0 12px 24px rgba(0, 0, 0, 0.3),
+    0 16px 32px rgba(0, 0, 0, 0.2),
+    /* Deep base shadow for floating effect */
+    0 20px 0 rgba(20, 20, 20, 0.3),
+    0 20px 40px rgba(0, 0, 0, 0.4);
+  
+  /* Mechanical key cap edges */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 2px solid rgba(255, 255, 255, 0.25);
+  border-bottom: 3px solid rgba(0, 0, 0, 0.6);
+  
+  /* More pronounced 3D projection */
+  transform: perspective(800px) rotateX(-15deg) translateY(-8px) translateZ(30px);
+  
+  /* Smooth mechanical transitions */
+  transition: all 0.08s cubic-bezier(0.4, 0, 0.6, 1),
+              transform 0.08s cubic-bezier(0.4, 0, 0.6, 1),
+              box-shadow 0.08s cubic-bezier(0.4, 0, 0.6, 1);
+  
+  /* Extra thickness for key cap feel */
+  padding: 22px 26px;
+  
+  /* Glass blur maintained */
+  backdrop-filter: blur(20px) saturate(150%) brightness(105%);
+}
+
+/* Hover state - Button ready to press */
+.ravie-nav-item:hover {
+  /* Lift more dramatically */
+  transform: perspective(800px) rotateX(-10deg) translateY(-10px) translateZ(40px);
+  
+  /* Enhanced shadow for lifted state */
+  box-shadow: 
+    inset 0 4px 10px rgba(255, 255, 255, 0.5),
+    inset 0 1px 2px rgba(255, 255, 255, 0.7),
+    inset 0 -4px 10px rgba(0, 0, 0, 0.4),
+    /* Extended shadows for more lift */
+    0 12px 20px rgba(0, 0, 0, 0.4),
+    0 18px 30px rgba(0, 0, 0, 0.3),
+    0 24px 40px rgba(0, 0, 0, 0.2),
+    0 28px 0 rgba(20, 20, 20, 0.25),
+    0 30px 50px rgba(0, 0, 0, 0.35);
+    
+  /* Subtle red glow on hover */
+  background: 
+    linear-gradient(145deg, 
+      rgba(255, 100, 100, 0.05) 0%, 
+      rgba(255, 255, 255, 0.03) 50%,
+      rgba(0, 0, 0, 0.05) 100%);
+}
+
+/* Active/Click state - Button fully pressed */
+.ravie-nav-item:active {
+  /* Push the button flush with surface */
+  transform: perspective(800px) rotateX(0deg) translateY(0px) translateZ(0px) scale(0.97);
+  
+  /* Deep pressed shadow - button is recessed */
+  box-shadow: 
+    /* Deep inset for sunken look */
+    inset 0 6px 12px rgba(0, 0, 0, 0.6),
+    inset 0 2px 4px rgba(0, 0, 0, 0.8),
+    inset 0 -1px 2px rgba(50, 50, 50, 0.3),
+    /* Minimal outer shadow - button is flush */
+    0 1px 2px rgba(0, 0, 0, 0.5),
+    0 0 0 rgba(0, 0, 0, 0);
+  
+  /* Pressed state background */
+  background: 
+    linear-gradient(145deg, 
+      rgba(0, 0, 0, 0.2) 0%, 
+      rgba(50, 50, 50, 0.05) 50%,
+      rgba(0, 0, 0, 0.1) 100%);
+  
+  /* Instant tactile feedback */
+  transition-duration: 0.03s;
+}
+
+/* Logo pod - Premium mechanical key */
+.ravie-logo-pod {
+  /* Modern mechanical design */
+  background: 
+    radial-gradient(circle at 30% 30%, 
+      rgba(255, 255, 255, 0.15) 0%, 
+      rgba(255, 255, 255, 0.05) 50%,
+      rgba(0, 0, 0, 0.1) 100%);
+  
+  /* Extreme projection for logo */
+  box-shadow: 
+    /* Inner highlights */
+    inset 0 4px 10px rgba(255, 255, 255, 0.4),
+    inset 0 -4px 10px rgba(0, 0, 0, 0.4),
+    /* Projection shadows */
+    0 10px 20px rgba(0, 0, 0, 0.4),
+    0 15px 30px rgba(0, 0, 0, 0.3),
+    0 20px 40px rgba(0, 0, 0, 0.2),
+    /* Base shadow for extreme depth */
+    0 25px 0 rgba(30, 30, 30, 0.3),
+    0 30px 50px rgba(0, 0, 0, 0.4);
+  
+  /* More pronounced default projection */
+  transform: perspective(800px) rotateX(-20deg) translateY(-10px) translateZ(35px);
+  
+  /* Premium mechanical edges */
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  border-top: 2px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 3px solid rgba(0, 0, 0, 0.5);
+    
+  transition: all 0.08s cubic-bezier(0.4, 0, 0.6, 1);
+}
+
+.ravie-logo-pod:hover {
+  /* Lift slightly */
+  transform: perspective(1000px) rotateY(0deg) rotateX(0deg) translateY(-2px) translateZ(25px) scale(1.05);
+  box-shadow: 
+    0 0 50px rgba(255, 255, 255, 0.25),
+    0 20px 60px rgba(0, 0, 0, 0.35),
+    inset 0 2px 4px rgba(255, 255, 255, 0.4),
+    0 10px 0 rgba(0, 0, 0, 0.1),
+    0 12px 20px rgba(0, 0, 0, 0.25);
+}
+
+.ravie-logo-pod:active {
+  /* Press down */
+  transform: perspective(1000px) rotateY(0deg) rotateX(0deg) translateY(4px) translateZ(0px) scale(0.98);
+  box-shadow: 
+    0 0 30px rgba(255, 255, 255, 0.1),
+    0 4px 10px rgba(0, 0, 0, 0.3),
+    inset 0 3px 6px rgba(0, 0, 0, 0.3),
+    0 0 0 rgba(0, 0, 0, 0);
+  
+  transition-duration: 0.05s;
+}
+
+/* Mechanical keyboard "spring back" animation */
+@keyframes keyboardSpringBack {
+  0% {
+    transform: perspective(1000px) translateY(6px) scale(0.98);
+  }
+  40% {
+    transform: perspective(1000px) translateY(-1px) scale(1.01);
+  }
+  70% {
+    transform: perspective(1000px) translateY(1px) scale(0.99);
+  }
+  100% {
+    transform: perspective(1000px) translateY(0px) scale(1);
+  }
+}
+
+/* Apply spring back after click */
+.ravie-nav-item:not(:active):focus {
+  animation: keyboardSpringBack 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* Active state indicator - Red/Gray accent */
+.ravie-nav-item::after {
+  content: '';
+  position: absolute;
+  left: -3px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 80%;
+  background: linear-gradient(180deg, 
+    rgba(255, 80, 80, 0.6), 
+    rgba(120, 120, 120, 0.4));
+  transition: width 0.3s ease;
+  border-radius: 8px 0 0 8px;
+  
+  /* Mechanical edge indicator */
+  box-shadow: 
+    inset 2px 0 4px rgba(0, 0, 0, 0.4),
+    0 0 8px rgba(255, 80, 80, 0.2);
+}
+
+/* Visual feedback for successful click */
+.ravie-nav-item:active::after {
+  width: 8px;
+  transition-duration: 0.1s;
+  box-shadow: inset 4px 0 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Add retro CRT monitor flicker on press (subtle) */
+.ravie-nav-item:active {
+  filter: brightness(0.95) contrast(1.05);
+}
+
+/* Ensure text doesn't move with button */
+.ravie-nav-item {
+  /* Keep text stable during press */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Optional: Add satisfying "click" feedback with micro-vibration */
+@keyframes microVibrate {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-0.5px); }
+  75% { transform: translateX(0.5px); }
+}
+
+.ravie-nav-item:active {
+  animation: microVibrate 0.1s ease-out;
+}
+
+/* Mobile/Touch optimizations */
+@media (max-width: 768px) {
+  /* Navigation hidden on mobile - no effects needed */
+  .ravie-left-nav {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  /* Reduce projection on tablet for better touch experience */
+  .ravie-nav-item {
+    transform: perspective(800px) rotateX(-8deg) translateY(-4px) translateZ(15px);
+    padding: 18px 22px;
+  }
+  
+  .ravie-logo-pod {
+    transform: perspective(800px) rotateX(-12deg) translateY(-6px) translateZ(20px);
+  }
+  
+  /* Faster feedback for touch */
+  .ravie-nav-item:active {
+    transition-duration: 0.02s;
+  }
+}
+
+/* Touch device optimizations */
+@media (hover: none) and (pointer: coarse) {
+  /* Optimize for touch - less hover effects, more press feedback */
+  .ravie-nav-item:hover {
+    /* Don't lift on touch hover */
+    transform: perspective(800px) rotateX(-15deg) translateY(-6px) translateZ(25px);
+  }
+  
+  /* Enhanced press feedback for touch */
+  .ravie-nav-item:active {
+    transform: perspective(800px) rotateX(2deg) translateY(2px) translateZ(-5px) scale(0.95);
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  .ravie-nav-item,
+  .ravie-logo-pod {
+    transition-duration: 0.01ms !important;
+    animation: none !important;
+  }
+  
+  .ravie-nav-item:active,
+  .ravie-logo-pod:active {
+    transform: translateY(2px) scale(0.99) !important;
+  }
+  
+  /* Keep minimal 3D effect for accessibility */
+  .ravie-nav-item {
+    transform: perspective(800px) translateY(-2px) translateZ(5px) !important;
+  }
+}

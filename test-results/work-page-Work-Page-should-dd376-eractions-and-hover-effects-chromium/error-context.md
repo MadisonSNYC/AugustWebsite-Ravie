@@ -1,0 +1,518 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation "Main navigation" [ref=e3]:
+    - link "Ravie home" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - img "Ravie" [ref=e5] [cursor=pointer]
+      - generic [ref=e6] [cursor=pointer]: RAVIE
+    - link "loops" [ref=e7] [cursor=pointer]:
+      - /url: /
+    - link "work" [ref=e8] [cursor=pointer]:
+      - /url: /work
+    - link "about" [ref=e9] [cursor=pointer]:
+      - /url: /about
+    - link "contact" [ref=e10] [cursor=pointer]:
+      - /url: /contact
+    - link "talk" [ref=e11] [cursor=pointer]:
+      - /url: mailto:hello@ravie.co
+  - generic [ref=e12]:
+    - main [ref=e13]:
+      - main [ref=e14]:
+        - region "Portfolio projects" [ref=e16]:
+          - generic [ref=e18]:
+            - generic [ref=e21]:
+              - generic [ref=e22]:
+                - article [ref=e24]:
+                  - link "Mega Agent Camp Opener" [ref=e25] [cursor=pointer]:
+                    - /url: /portfolio/keller-williams-opener
+                    - generic [ref=e26] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Keller Williams
+                              - generic: Event
+                              - generic: Motion
+                              - generic: PLAY
+                            - heading "Mega Agent Camp Opener" [level=3]
+                - article [ref=e31]:
+                  - link "2024 Showreel" [ref=e32] [cursor=pointer]:
+                    - /url: /portfolio/ravie-reel-2024
+                    - generic [ref=e33] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Ravie Studio
+                              - generic: Portfolio
+                              - generic: Motion
+                              - generic: PLAY
+                            - heading "2024 Showreel" [level=3]
+                - article [ref=e38]:
+                  - link "Anime Streaming Experience" [ref=e39] [cursor=pointer]:
+                    - /url: /portfolio/crunchyroll-experience
+                    - generic [ref=e40] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Crunchyroll
+                              - generic: Entertainment
+                              - generic: Digital
+                              - generic: PLAY
+                            - heading "Anime Streaming Experience" [level=3]
+                - article [ref=e45]:
+                  - link "Music Video Visuals" [ref=e46] [cursor=pointer]:
+                    - /url: /portfolio/jhene-aiko-visuals
+                    - generic [ref=e47] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Jhené Aiko
+                              - generic: Music
+                              - generic: Creative
+                              - generic: PLAY
+                            - heading "Music Video Visuals" [level=3]
+              - generic [ref=e51]:
+                - article [ref=e53]:
+                  - link "Mega Agent Camp Opener" [ref=e54] [cursor=pointer]:
+                    - /url: /portfolio/keller-williams-opener
+                    - generic [ref=e55] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Keller Williams
+                              - generic: Event
+                              - generic: Motion
+                              - generic: PLAY
+                            - heading "Mega Agent Camp Opener" [level=3]
+                - article [ref=e60]:
+                  - link "2024 Showreel" [ref=e61] [cursor=pointer]:
+                    - /url: /portfolio/ravie-reel-2024
+                    - generic [ref=e62] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Ravie Studio
+                              - generic: Portfolio
+                              - generic: Motion
+                              - generic: PLAY
+                            - heading "2024 Showreel" [level=3]
+                - article [ref=e67]:
+                  - link "Anime Streaming Experience" [ref=e68] [cursor=pointer]:
+                    - /url: /portfolio/crunchyroll-experience
+                    - generic [ref=e69] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Crunchyroll
+                              - generic: Entertainment
+                              - generic: Digital
+                              - generic: PLAY
+                            - heading "Anime Streaming Experience" [level=3]
+                - article [ref=e74]:
+                  - link "Music Video Visuals" [ref=e75] [cursor=pointer]:
+                    - /url: /portfolio/jhene-aiko-visuals
+                    - generic [ref=e76] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Jhené Aiko
+                              - generic: Music
+                              - generic: Creative
+                              - generic: PLAY
+                            - heading "Music Video Visuals" [level=3]
+              - generic [ref=e80]:
+                - article [ref=e82]:
+                  - link "Mega Agent Camp Opener" [ref=e83] [cursor=pointer]:
+                    - /url: /portfolio/keller-williams-opener
+                    - generic [ref=e84] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Keller Williams
+                              - generic: Event
+                              - generic: Motion
+                              - generic: PLAY
+                            - heading "Mega Agent Camp Opener" [level=3]
+                - article [ref=e89]:
+                  - link "2024 Showreel" [ref=e90] [cursor=pointer]:
+                    - /url: /portfolio/ravie-reel-2024
+                    - generic [ref=e91] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Ravie Studio
+                              - generic: Portfolio
+                              - generic: Motion
+                              - generic: PLAY
+                            - heading "2024 Showreel" [level=3]
+                - article [ref=e96]:
+                  - link "Anime Streaming Experience" [ref=e97] [cursor=pointer]:
+                    - /url: /portfolio/crunchyroll-experience
+                    - generic [ref=e98] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Crunchyroll
+                              - generic: Entertainment
+                              - generic: Digital
+                              - generic: PLAY
+                            - heading "Anime Streaming Experience" [level=3]
+                - article [ref=e103]:
+                  - link "Music Video Visuals" [ref=e104] [cursor=pointer]:
+                    - /url: /portfolio/jhene-aiko-visuals
+                    - generic [ref=e105] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Jhené Aiko
+                              - generic: Music
+                              - generic: Creative
+                              - generic: PLAY
+                            - heading "Music Video Visuals" [level=3]
+            - generic [ref=e111]:
+              - generic [ref=e112]:
+                - article [ref=e114]:
+                  - link "Utility Account Video" [ref=e115] [cursor=pointer]:
+                    - /url: /portfolio/publix-utility
+                    - generic [ref=e116] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Publix
+                              - generic: Retail
+                              - generic: Motion
+                              - generic: PLAY
+                            - heading "Utility Account Video" [level=3]
+                - article [ref=e121]:
+                  - link "Crypto Platform Launch" [ref=e122] [cursor=pointer]:
+                    - /url: /portfolio/coinbase-launch
+                    - generic [ref=e123] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Coinbase
+                              - generic: Finance
+                              - generic: Digital
+                              - generic: PLAY
+                            - heading "Crypto Platform Launch" [level=3]
+                - article [ref=e128]:
+                  - link "Loop Animations" [ref=e129] [cursor=pointer]:
+                    - /url: /portfolio/loops-studio
+                    - generic [ref=e130] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Loops Studio
+                              - generic: Motion
+                              - generic: Animation
+                              - generic: PLAY
+                            - heading "Loop Animations" [level=3]
+                - article [ref=e135]:
+                  - link "Ozone Experience" [ref=e136] [cursor=pointer]:
+                    - /url: /portfolio/ozone-installation
+                    - generic [ref=e137] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Ozone Studio
+                              - generic: Art
+                              - generic: Installation
+                              - generic: PLAY
+                            - heading "Ozone Experience" [level=3]
+              - generic [ref=e141]:
+                - article [ref=e143]:
+                  - link "Utility Account Video" [ref=e144] [cursor=pointer]:
+                    - /url: /portfolio/publix-utility
+                    - generic [ref=e145] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Publix
+                              - generic: Retail
+                              - generic: Motion
+                              - generic: PLAY
+                            - heading "Utility Account Video" [level=3]
+                - article [ref=e150]:
+                  - link "Crypto Platform Launch" [ref=e151] [cursor=pointer]:
+                    - /url: /portfolio/coinbase-launch
+                    - generic [ref=e152] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Coinbase
+                              - generic: Finance
+                              - generic: Digital
+                              - generic: PLAY
+                            - heading "Crypto Platform Launch" [level=3]
+                - article [ref=e157]:
+                  - link "Loop Animations" [ref=e158] [cursor=pointer]:
+                    - /url: /portfolio/loops-studio
+                    - generic [ref=e159] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Loops Studio
+                              - generic: Motion
+                              - generic: Animation
+                              - generic: PLAY
+                            - heading "Loop Animations" [level=3]
+                - article [ref=e164]:
+                  - link "Ozone Experience" [ref=e165] [cursor=pointer]:
+                    - /url: /portfolio/ozone-installation
+                    - generic [ref=e166] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Ozone Studio
+                              - generic: Art
+                              - generic: Installation
+                              - generic: PLAY
+                            - heading "Ozone Experience" [level=3]
+              - generic [ref=e170]:
+                - article [ref=e172]:
+                  - link "Utility Account Video" [ref=e173] [cursor=pointer]:
+                    - /url: /portfolio/publix-utility
+                    - generic [ref=e174] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Publix
+                              - generic: Retail
+                              - generic: Motion
+                              - generic: PLAY
+                            - heading "Utility Account Video" [level=3]
+                - article [ref=e179]:
+                  - link "Crypto Platform Launch" [ref=e180] [cursor=pointer]:
+                    - /url: /portfolio/coinbase-launch
+                    - generic [ref=e181] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Coinbase
+                              - generic: Finance
+                              - generic: Digital
+                              - generic: PLAY
+                            - heading "Crypto Platform Launch" [level=3]
+                - article [ref=e186]:
+                  - link "Loop Animations" [ref=e187] [cursor=pointer]:
+                    - /url: /portfolio/loops-studio
+                    - generic [ref=e188] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Loops Studio
+                              - generic: Motion
+                              - generic: Animation
+                              - generic: PLAY
+                            - heading "Loop Animations" [level=3]
+                - article [ref=e193]:
+                  - link "Ozone Experience" [ref=e194] [cursor=pointer]:
+                    - /url: /portfolio/ozone-installation
+                    - generic [ref=e195] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Ozone Studio
+                              - generic: Art
+                              - generic: Installation
+                              - generic: PLAY
+                            - heading "Ozone Experience" [level=3]
+            - generic [ref=e201]:
+              - generic [ref=e202]:
+                - article [ref=e204]:
+                  - link "Brand Film 2025" [ref=e205] [cursor=pointer]:
+                    - /url: /portfolio/ravie-brand-film
+                    - generic [ref=e206] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Ravie
+                              - generic: Branding
+                              - generic: Motion
+                              - generic: PLAY
+                            - heading "Brand Film 2025" [level=3]
+                - article [ref=e211]:
+                  - link "Gaming Platform UI" [ref=e212] [cursor=pointer]:
+                    - /url: /portfolio/gameplan-ui
+                    - generic [ref=e213] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: GamePlan
+                              - generic: Gaming
+                              - generic: Digital
+                              - generic: PLAY
+                            - heading "Gaming Platform UI" [level=3]
+                - article [ref=e218]:
+                  - link "Restaurant Campaign" [ref=e219] [cursor=pointer]:
+                    - /url: /portfolio/chick-fil-a-campaign
+                    - generic [ref=e220] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Chick-fil-A
+                              - generic: Food
+                              - generic: Commercial
+                              - generic: PLAY
+                            - heading "Restaurant Campaign" [level=3]
+                - article [ref=e225]:
+                  - link "Social Campaign" [ref=e226] [cursor=pointer]:
+                    - /url: /portfolio/oso-social
+                    - generic [ref=e227] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: OSO Studios
+                              - generic: Social
+                              - generic: Digital
+                              - generic: PLAY
+                            - heading "Social Campaign" [level=3]
+              - generic [ref=e231]:
+                - article [ref=e233]:
+                  - link "Brand Film 2025" [ref=e234] [cursor=pointer]:
+                    - /url: /portfolio/ravie-brand-film
+                    - generic [ref=e235] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Ravie
+                              - generic: Branding
+                              - generic: Motion
+                              - generic: PLAY
+                            - heading "Brand Film 2025" [level=3]
+                - article [ref=e240]:
+                  - link "Gaming Platform UI" [ref=e241] [cursor=pointer]:
+                    - /url: /portfolio/gameplan-ui
+                    - generic [ref=e242] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: GamePlan
+                              - generic: Gaming
+                              - generic: Digital
+                              - generic: PLAY
+                            - heading "Gaming Platform UI" [level=3]
+                - article [ref=e247]:
+                  - link "Restaurant Campaign" [ref=e248] [cursor=pointer]:
+                    - /url: /portfolio/chick-fil-a-campaign
+                    - generic [ref=e249] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Chick-fil-A
+                              - generic: Food
+                              - generic: Commercial
+                              - generic: PLAY
+                            - heading "Restaurant Campaign" [level=3]
+                - article [ref=e254]:
+                  - link "Social Campaign" [ref=e255] [cursor=pointer]:
+                    - /url: /portfolio/oso-social
+                    - generic [ref=e256] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: OSO Studios
+                              - generic: Social
+                              - generic: Digital
+                              - generic: PLAY
+                            - heading "Social Campaign" [level=3]
+              - generic [ref=e260]:
+                - article [ref=e262]:
+                  - link "Brand Film 2025" [ref=e263] [cursor=pointer]:
+                    - /url: /portfolio/ravie-brand-film
+                    - generic [ref=e264] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Ravie
+                              - generic: Branding
+                              - generic: Motion
+                              - generic: PLAY
+                            - heading "Brand Film 2025" [level=3]
+                - article [ref=e269]:
+                  - link "Gaming Platform UI" [ref=e270] [cursor=pointer]:
+                    - /url: /portfolio/gameplan-ui
+                    - generic [ref=e271] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: GamePlan
+                              - generic: Gaming
+                              - generic: Digital
+                              - generic: PLAY
+                            - heading "Gaming Platform UI" [level=3]
+                - article [ref=e276]:
+                  - link "Restaurant Campaign" [ref=e277] [cursor=pointer]:
+                    - /url: /portfolio/chick-fil-a-campaign
+                    - generic [ref=e278] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Chick-fil-A
+                              - generic: Food
+                              - generic: Commercial
+                              - generic: PLAY
+                            - heading "Restaurant Campaign" [level=3]
+                - article [ref=e283]:
+                  - link "Social Campaign" [ref=e284] [cursor=pointer]:
+                    - /url: /portfolio/oso-social
+                    - generic [ref=e285] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: OSO Studios
+                              - generic: Social
+                              - generic: Digital
+                              - generic: PLAY
+                            - heading "Social Campaign" [level=3]
+    - contentinfo [ref=e289]:
+      - generic [ref=e290]:
+        - generic [ref=e292]:
+          - generic [ref=e293]:
+            - img "Ravie.co" [ref=e294]
+            - generic [ref=e295]: Ravie.co
+          - paragraph [ref=e296]: Creative Digital Agency. Building exceptional digital experiences
+        - generic [ref=e298]:
+          - generic [ref=e299]: © 2025 Your Company. All rights reserved.
+          - generic [ref=e301]:
+            - generic [ref=e302]: Made with
+            - generic [ref=e303]: ♥
+            - generic [ref=e304]: in NC & NYC
+```

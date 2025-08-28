@@ -47,6 +47,7 @@ export function SmoothGrid({ projects }: SmoothGridProps) {
       <div 
         ref={containerRef} 
         className="homepage-scroll-container"
+        style={{ position: 'relative' }}
         role="region"
         aria-label="Portfolio projects showcase"
       >
