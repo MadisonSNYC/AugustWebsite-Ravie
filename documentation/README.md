@@ -191,13 +191,6 @@ npm run build
 
 The production-ready files will be in the `dist/` directory.
 
-### Deploy to Netlify
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/MadisonSNYC/RVM1)
-
-### Deploy to Vercel
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/MadisonSNYC/RVM1)
 
 ## Contributing
 
@@ -217,11 +210,11 @@ For inquiries about the portfolio or potential collaborations, please reach out 
 
 ## Acknowledgments
 
-- Design and Development by Ravie
+- Design and Development by TheNYCAgent
 - Built with React and Vite
 - Animations powered by Framer Motion
 - Icons by Lucide React
 
 ---
 
-© 2025 Ravie. All rights reserved.
+© 2025 TheNYCAgent. All rights reserved.

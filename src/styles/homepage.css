@@ -26,8 +26,8 @@ html.homepage-active {
   --tile-scale: var(--homepage-tile-scale);
   position: relative;
   min-height: 100vh;
-  /* Ensure header is visible above atmospheric effects */
-  padding-top: 80px; /* Account for fixed header */
+  /* No top padding needed - left nav overlays content */
+  padding-top: 0;
 }
 
 /* ===================================
@@ -38,7 +38,7 @@ html.homepage-active {
 .homepage-single-column::before {
   content: '';
   position: fixed;
-  top: 80px; /* Start below header */
+  top: 0; /* Full height - nav overlays */
   left: 0;
   right: 0;
   bottom: 0;
@@ -60,7 +60,7 @@ html.homepage-active {
 .homepage-single-column::after {
   content: '';
   position: fixed;
-  top: 80px; /* Start below header */
+  top: 0; /* Full height - nav overlays */
   left: 0;
   right: 0;
   bottom: 0;
@@ -182,7 +182,7 @@ html.homepage-active {
 
 .homepage-atmosphere {
   position: fixed;
-  top: 80px; /* Start below header */
+  top: 0; /* Full height - nav overlays */
   left: 0;
   right: 0;
   bottom: 0;

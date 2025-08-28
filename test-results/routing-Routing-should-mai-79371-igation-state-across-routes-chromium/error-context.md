@@ -1,0 +1,242 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation "Main navigation" [ref=e3]:
+      - link "Ravie home" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Ravie" [ref=e5] [cursor=pointer]
+        - generic [ref=e6] [cursor=pointer]: RAVIE
+      - link "loops" [ref=e7] [cursor=pointer]:
+        - /url: /
+      - link "work" [ref=e8] [cursor=pointer]:
+        - /url: /work
+      - link "about" [ref=e9] [cursor=pointer]:
+        - /url: /about
+      - link "contact" [ref=e10] [cursor=pointer]:
+        - /url: /contact
+      - link "talk" [ref=e11] [cursor=pointer]:
+        - /url: mailto:hello@ravie.co
+    - generic [ref=e12]:
+      - main [ref=e13]:
+        - region "Portfolio projects showcase" [ref=e15]:
+          - region "Projects grid" [ref=e16]:
+            - list [ref=e17]:
+              - 'listitem "Project: Mega Agent Camp Opener" [ref=e18]':
+                - article [ref=e19]:
+                  - link "Mega Agent Camp Opener" [ref=e20] [cursor=pointer]:
+                    - /url: /portfolio/keller-williams-opener
+                    - generic [ref=e21] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Keller Williams
+                              - generic: Event
+                              - generic: Motion
+                              - generic: PLAY
+                            - heading "Mega Agent Camp Opener" [level=3]
+              - 'listitem "Project: Utility Account Video" [ref=e25]':
+                - article [ref=e26]:
+                  - link "Utility Account Video" [ref=e27] [cursor=pointer]:
+                    - /url: /portfolio/publix-utility
+                    - generic [ref=e28] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Publix
+                              - generic: Retail
+                              - generic: Motion
+                              - generic: PLAY
+                            - heading "Utility Account Video" [level=3]
+              - 'listitem "Project: Brand Film 2025" [ref=e32]':
+                - article [ref=e33]:
+                  - link "Brand Film 2025" [ref=e34] [cursor=pointer]:
+                    - /url: /portfolio/ravie-brand-film
+                    - generic [ref=e35] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Ravie
+                              - generic: Branding
+                              - generic: Motion
+                              - generic: PLAY
+                            - heading "Brand Film 2025" [level=3]
+              - 'listitem "Project: 2024 Showreel" [ref=e39]':
+                - article [ref=e40]:
+                  - link "2024 Showreel" [ref=e41] [cursor=pointer]:
+                    - /url: /portfolio/ravie-reel-2024
+                    - generic [ref=e42] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Ravie Studio
+                              - generic: Portfolio
+                              - generic: Motion
+                              - generic: PLAY
+                            - heading "2024 Showreel" [level=3]
+              - 'listitem "Project: Crypto Platform Launch" [ref=e46]':
+                - article [ref=e47]:
+                  - link "Crypto Platform Launch" [ref=e48] [cursor=pointer]:
+                    - /url: /portfolio/coinbase-launch
+                    - generic [ref=e49] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Coinbase
+                              - generic: Finance
+                              - generic: Digital
+                              - generic: PLAY
+                            - heading "Crypto Platform Launch" [level=3]
+              - 'listitem "Project: Gaming Platform UI" [ref=e53]':
+                - article [ref=e54]:
+                  - link "Gaming Platform UI" [ref=e55] [cursor=pointer]:
+                    - /url: /portfolio/gameplan-ui
+                    - generic [ref=e56] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: GamePlan
+                              - generic: Gaming
+                              - generic: Digital
+                              - generic: PLAY
+                            - heading "Gaming Platform UI" [level=3]
+              - 'listitem "Project: Anime Streaming Experience" [ref=e60]':
+                - article [ref=e61]:
+                  - link "Anime Streaming Experience" [ref=e62] [cursor=pointer]:
+                    - /url: /portfolio/crunchyroll-experience
+                    - generic [ref=e63] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Crunchyroll
+                              - generic: Entertainment
+                              - generic: Digital
+                              - generic: PLAY
+                            - heading "Anime Streaming Experience" [level=3]
+              - 'listitem "Project: Loop Animations" [ref=e67]':
+                - article [ref=e68]:
+                  - link "Loop Animations" [ref=e69] [cursor=pointer]:
+                    - /url: /portfolio/loops-studio
+                    - generic [ref=e70] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Loops Studio
+                              - generic: Motion
+                              - generic: Animation
+                              - generic: PLAY
+                            - heading "Loop Animations" [level=3]
+              - 'listitem "Project: Restaurant Campaign" [ref=e74]':
+                - article [ref=e75]:
+                  - link "Restaurant Campaign" [ref=e76] [cursor=pointer]:
+                    - /url: /portfolio/chick-fil-a-campaign
+                    - generic [ref=e77] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Chick-fil-A
+                              - generic: Food
+                              - generic: Commercial
+                              - generic: PLAY
+                            - heading "Restaurant Campaign" [level=3]
+              - 'listitem "Project: Music Video Visuals" [ref=e81]':
+                - article [ref=e82]:
+                  - link "Music Video Visuals" [ref=e83] [cursor=pointer]:
+                    - /url: /portfolio/jhene-aiko-visuals
+                    - generic [ref=e84] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Jhené Aiko
+                              - generic: Music
+                              - generic: Creative
+                              - generic: PLAY
+                            - heading "Music Video Visuals" [level=3]
+              - 'listitem "Project: Ozone Experience" [ref=e88]':
+                - article [ref=e89]:
+                  - link "Ozone Experience" [ref=e90] [cursor=pointer]:
+                    - /url: /portfolio/ozone-installation
+                    - generic [ref=e91] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Ozone Studio
+                              - generic: Art
+                              - generic: Installation
+                              - generic: PLAY
+                            - heading "Ozone Experience" [level=3]
+              - 'listitem "Project: Social Campaign" [ref=e95]':
+                - article [ref=e96]:
+                  - link "Social Campaign" [ref=e97] [cursor=pointer]:
+                    - /url: /portfolio/oso-social
+                    - generic [ref=e98] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: OSO Studios
+                              - generic: Social
+                              - generic: Digital
+                              - generic: PLAY
+                            - heading "Social Campaign" [level=3]
+      - contentinfo [ref=e102]:
+        - generic [ref=e103]:
+          - generic [ref=e105]:
+            - generic [ref=e106]:
+              - img "Ravie.co" [ref=e107]
+              - generic [ref=e108]: Ravie.co
+            - paragraph [ref=e109]: Creative Digital Agency. Building exceptional digital experiences
+          - generic [ref=e111]:
+            - generic [ref=e112]: © 2025 Your Company. All rights reserved.
+            - generic [ref=e114]:
+              - generic [ref=e115]: Made with
+              - generic [ref=e116]: ♥
+              - generic [ref=e117]: in NC & NYC
+  - generic [ref=e122]:
+    - generic [ref=e123]:
+      - generic [ref=e124]: "[plugin:vite:import-analysis]"
+      - generic [ref=e125]: Failed to resolve import "../components/ProcessVisualization" from "src/pages/ProjectPageContent.jsx". Does the file exist?
+    - generic [ref=e127] [cursor=pointer]: /Users/madisonrayesutton/Desktop/August Website/ravie-website-active/src/pages/ProjectPageContent.jsx:6:33
+    - generic [ref=e128]: "21 | import { ArrowLeft } from \"lucide-react\"; 22 | import InteractiveTimeline from \"../components/InteractiveTimeline\"; 23 | import ProcessVisualization from \"../components/ProcessVisualization\"; | ^ 24 | import RelatedProjectsCarousel from \"../components/RelatedProjectsCarousel\"; 25 | import ScrollReveal from \"../components/ScrollReveal\";"
+    - generic [ref=e129]:
+      - text: at TransformPluginContext._formatLog (
+      - generic [ref=e130] [cursor=pointer]: file:///Users/madisonrayesutton/Desktop/August%20Website/ravie-website-active/node_modules/vite/dist/node/chunks/dep-Bj7gA1-0.js:31422:43
+      - text: ) at TransformPluginContext.error (
+      - generic [ref=e131] [cursor=pointer]: file:///Users/madisonrayesutton/Desktop/August%20Website/ravie-website-active/node_modules/vite/dist/node/chunks/dep-Bj7gA1-0.js:31419:14
+      - text: ) at normalizeUrl (
+      - generic [ref=e132] [cursor=pointer]: file:///Users/madisonrayesutton/Desktop/August%20Website/ravie-website-active/node_modules/vite/dist/node/chunks/dep-Bj7gA1-0.js:29891:18
+      - text: ) at process.processTicksAndRejections (node:internal
+      - generic [ref=e133] [cursor=pointer]: /process/task_queues:105:5
+      - text: ) at async
+      - generic [ref=e134] [cursor=pointer]: file:///Users/madisonrayesutton/Desktop/August%20Website/ravie-website-active/node_modules/vite/dist/node/chunks/dep-Bj7gA1-0.js:29949:32
+      - text: at async Promise.all (index 8) at async TransformPluginContext.transform (
+      - generic [ref=e135] [cursor=pointer]: file:///Users/madisonrayesutton/Desktop/August%20Website/ravie-website-active/node_modules/vite/dist/node/chunks/dep-Bj7gA1-0.js:29917:4
+      - text: ) at async EnvironmentPluginContainer.transform (
+      - generic [ref=e136] [cursor=pointer]: file:///Users/madisonrayesutton/Desktop/August%20Website/ravie-website-active/node_modules/vite/dist/node/chunks/dep-Bj7gA1-0.js:31220:14
+      - text: ) at async loadAndTransform (
+      - generic [ref=e137] [cursor=pointer]: file:///Users/madisonrayesutton/Desktop/August%20Website/ravie-website-active/node_modules/vite/dist/node/chunks/dep-Bj7gA1-0.js:26307:26
+      - text: )
+    - generic [ref=e138]:
+      - text: Click outside, press
+      - generic [ref=e139]: Esc
+      - text: key, or fix the code to dismiss.
+      - text: You can also disable this overlay by setting
+      - code [ref=e140]: server.hmr.overlay
+      - text: to
+      - code [ref=e141]: "false"
+      - text: in
+      - code [ref=e142]: vite.config.js
+      - text: .
+```
