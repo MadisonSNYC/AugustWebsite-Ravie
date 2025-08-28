@@ -20,3 +20,6 @@
 
 /* Custom variant for dark mode - not standard CSS */
 /* @custom-variant dark (&:is(.dark *)); */
+
+/* Import left vertical navigation styles */
+@import "./styles/ravie-left-vertical.css";

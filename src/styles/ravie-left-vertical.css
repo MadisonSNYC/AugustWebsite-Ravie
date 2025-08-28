@@ -1,0 +1,199 @@
+/* ========================================
+   RAVIE LEFT VERTICAL NAVIGATION
+   Neo Glass 3D with Traditional Text
+   ======================================== */
+
+/* Core Navigation Container */
+.ravie-left-nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  z-index: 1000;
+  padding: 50px 0;
+}
+
+/* Logo Pod - Neo Glass 3D */
+.ravie-logo-pod {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(30px) saturate(200%) brightness(115%);
+  -webkit-backdrop-filter: blur(30px) saturate(200%) brightness(115%);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 
+    0 0 30px rgba(255, 255, 255, 0.15),
+    0 12px 40px rgba(0, 0, 0, 0.25),
+    inset 0 2px 4px rgba(255, 255, 255, 0.3);
+  transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 30px;
+  transform: perspective(1000px) rotateY(-15deg) rotateX(5deg);
+  position: relative;
+}
+
+/* Animated gradient border for logo */
+.ravie-logo-pod::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(45deg, 
+    rgba(139, 69, 255, 0.4) 0%, 
+    rgba(255, 154, 158, 0.3) 50%,
+    rgba(78, 205, 196, 0.4) 100%);
+  border-radius: 50%;
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: xor;
+  -webkit-mask-composite: xor;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  animation: neoBorderFlow 6s linear infinite;
+}
+
+@keyframes neoBorderFlow {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Logo image styling */
+.ravie-logo-pod img {
+  width: 40px;
+  height: auto;
+  filter: brightness(1.2) contrast(1.1);
+}
+
+/* Logo text */
+.ravie-logo-pod .logo-text {
+  font-size: 8px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.9);
+  margin-top: 4px;
+  text-transform: uppercase;
+}
+
+/* Navigation Items - Traditional Text */
+.ravie-nav-item {
+  background: rgba(0, 0, 0, 0.03);
+  backdrop-filter: blur(25px) saturate(180%) brightness(108%);
+  -webkit-backdrop-filter: blur(25px) saturate(180%) brightness(108%);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 20px 24px;
+  color: rgba(255, 255, 255, 0.75);
+  font-weight: 300;
+  font-size: 12px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  text-transform: lowercase;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  transform: perspective(1000px) rotateY(-8deg) rotateX(2deg);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  /* TRADITIONAL HORIZONTAL TEXT - NO VERTICAL ROTATION */
+  writing-mode: horizontal-tb;
+  text-orientation: upright;
+  text-decoration: none;
+  display: block;
+}
+
+/* Brutal gradient indicator */
+.ravie-nav-item::after {
+  content: '';
+  position: absolute;
+  left: -2px;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: linear-gradient(180deg, 
+    rgba(139, 69, 255, 0.8), 
+    rgba(255, 154, 158, 0.6));
+  transition: width 0.5s ease;
+  border-radius: 12px 0 0 12px;
+}
+
+/* 3D Interaction States */
+.ravie-nav-item:hover::after {
+  width: 6px;
+}
+
+.ravie-nav-item:hover {
+  background: rgba(255, 255, 255, 0.12);
+  color: white;
+  transform: perspective(1000px) rotateY(0deg) rotateX(0deg) translateZ(15px);
+  backdrop-filter: blur(35px) saturate(220%) brightness(125%);
+  -webkit-backdrop-filter: blur(35px) saturate(220%) brightness(125%);
+  box-shadow: 0 16px 50px rgba(0, 0, 0, 0.3);
+}
+
+/* Logo hover states */
+.ravie-logo-pod:hover::before {
+  opacity: 1;
+}
+
+.ravie-logo-pod:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: perspective(1000px) rotateY(0deg) rotateX(0deg) translateZ(25px) scale(1.1);
+  box-shadow: 
+    0 0 50px rgba(255, 255, 255, 0.25),
+    0 20px 60px rgba(0, 0, 0, 0.35),
+    inset 0 2px 4px rgba(255, 255, 255, 0.4);
+}
+
+/* Content margin adjustment */
+#main-content {
+  margin-left: 120px;
+  transition: margin-left 0.3s ease;
+}
+
+/* Responsive breakpoints */
+@media (max-width: 768px) {
+  .ravie-left-nav {
+    display: none;
+  }
+  
+  #main-content {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  .ravie-left-nav {
+    width: 80px;
+  }
+  
+  .ravie-nav-item {
+    padding: 16px 20px;
+    font-size: 11px;
+  }
+  
+  #main-content {
+    margin-left: 100px;
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  .ravie-left-nav * {
+    animation: none !important;
+    transition: none !important;
+  }
+  
+  .ravie-nav-item,
+  .ravie-logo-pod {
+    transform: none !important;
+  }
+}
